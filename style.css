@@ -1,0 +1,42 @@
+.Cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Card {
+    min-height: 500px;
+    width: 400px;
+    background-color: #222222;
+    border: 5px solid grey;
+    margin: 3px;
+}
+.title {
+    color: #e4ecef;
+    font-size: 24px;
+    position: absolute;
+}
+.text {
+    color: dodgerblue;
+    font-size: 26px;
+    flex-direction: column;
+}
+.picture {
+    height: 250px;
+    width: 400px;
+}
+.Card:hover {
+    opacity: 0.5;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #1a262b
+}
+.heading {
+    font-size: 76px;
+    color: azure;
+    align-items: center;
+    font-family: "Comic Sans MS";
+}
